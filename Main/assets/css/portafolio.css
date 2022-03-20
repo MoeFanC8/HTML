@@ -18,6 +18,11 @@
 
 .projectsContainer {
   padding: 1.5rem;
+  transition: 0.5s;
+}
+
+.projectsContainer:hover{
+  transform: scale(1.05);
 }
 
 .projectsContainer span {
